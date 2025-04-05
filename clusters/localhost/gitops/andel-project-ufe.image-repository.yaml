@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: andel-project-ufe
+  namespace: wac-hospital
+spec:
+  image: tomasandel123/andel-project-ufe
+  interval: 1m0s

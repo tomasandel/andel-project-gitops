@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+images:
+- name: tomasandel123/andel-project-ufe
+  newName: tomasandel123/andel-project-ufe # {"$imagepolicy":  "wac-hospital:andel-project-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:andel-project-ufe:tag"}

@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/andel-project-ufe
+
+components:
+- ../../../components/version-developers

@@ -12,3 +12,6 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
+- andel-project-ufe.image-repository.yaml
+- andel-project-ufe.image-policy.yaml
+- image-update-automation.yaml
