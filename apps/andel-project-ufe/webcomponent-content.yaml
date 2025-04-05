@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: andel-project-ufe-content
+spec:
+  microFrontend: andel-project-ufe
+  element: my-component
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?andel-project-wl(/.*)?$"
