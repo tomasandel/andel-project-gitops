@@ -7,16 +7,16 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Zoznam čakajúcich andel-project-ufe
+      value: Dotazník andel
     - name: short-headline
-      value: Zoznam čakajúcich andel-project-ufe
+      value: Dotazník andel
     - name: supporting-text
       value: |
-        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+        Spravuje dotazníky pacientov.
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./andel-project-wl
+      value: ./andel-project-q
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:
