@@ -5,6 +5,10 @@ metadata:
 spec:
   microFrontend: andel-project-ufe
   element: andel-project-q-app
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?andel-project-q(/.*)?$"
   attributes:
     - name: base-path
       value: /andel-project-q/
