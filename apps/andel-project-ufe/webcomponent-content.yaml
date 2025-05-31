@@ -5,10 +5,14 @@ metadata:
 spec:
   microFrontend: andel-project-ufe
   element: andel-project-q-app
+  attributes:
+    - name: base-path
+      value: /andel-project-q/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
       - path: "^(\\.?/)?andel-project-q(/.*)?$"
-  attributes:
-    - name: base-path
-      value: /andel-project-q/
