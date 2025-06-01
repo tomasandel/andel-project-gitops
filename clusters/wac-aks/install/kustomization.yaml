@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/andel-project-ufe
+- ../../../apps/andel-project-webapi
 
 
 components:
