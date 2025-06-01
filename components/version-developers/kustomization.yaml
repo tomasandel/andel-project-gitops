@@ -3,4 +3,4 @@ kind: Component
 images:
 - name: tomasandel123/andel-project-ufe
   newName: tomasandel123/andel-project-ufe # {"$imagepolicy":  "wac-hospital:andel-project-ufe:name"}
-  newTag: main.20250531.1904 # {"$imagepolicy": "wac-hospital:andel-project-ufe:tag"}
+  newTag: main.20250601.0755 # {"$imagepolicy": "wac-hospital:andel-project-ufe:tag"}
