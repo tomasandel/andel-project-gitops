@@ -15,3 +15,5 @@ resources:
 - andel-project-ufe.image-repository.yaml
 - andel-project-ufe.image-policy.yaml
 - image-update-automation.yaml
+- ambulance-webapi.image-repository.yaml
+- ambulance-webapi.image-policy.yaml

@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/andel-project-ufe
+- ../../../apps/andel-project-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/tomasandel/andel-project-webapi///deployments/kustomize/components/mongodb
