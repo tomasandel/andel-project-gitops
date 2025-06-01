@@ -6,4 +6,4 @@ images:
   newTag: main.20250601.2002 # {"$imagepolicy": "wac-hospital:andel-project-ufe:tag"}
 - name: tomasandel123/andel-project-webapi
   newName: tomasandel123/andel-project-webapi # {"$imagepolicy":  "wac-hospital:andel-project-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:andel-project-webapi:tag"}
+  newTag: main.20250601.1741 # {"$imagepolicy": "wac-hospital:andel-project-webapi:tag"}
