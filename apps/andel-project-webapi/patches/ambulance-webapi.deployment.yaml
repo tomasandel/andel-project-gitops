@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: andel-project-ambulance-webapi
+  name: andel-project-webapi
 spec:
   template:
     spec:
