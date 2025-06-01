@@ -48,5 +48,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: andel-project-ambulance-webapi
+          name: andel-project-webapi
           port: 80
