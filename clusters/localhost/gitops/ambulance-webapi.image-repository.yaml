@@ -4,5 +4,5 @@ metadata:
   name: andel-project-webapi
   namespace: wac-hospital
 spec:
-  image: tomasandel/andel-project-webapi
+  image: tomasandel123/andel-project-webapi
   interval: 1m0s
